@@ -22,7 +22,7 @@ test:
     only:
       - '**\bin\**\*.UnitTests.dll'
 test_script:
-  - cmd: "\"%USERPROFILE%\\.nuget\\packages\\OpenCover\\4.6.519\\tools\\OpenCover.Console.exe\" -register:user -target:\"%xunit20%\\xunit.console.x86.exe\" -targetargs:\"Grumpy.FeatureToggle.Core.UnitTests\\bin\\Release\\Grumpy.FeatureToggle.Core.UnitTests.dll Grumpy.FeatureToggle.Client.UnitTests\\bin\\Release\\Grumpy.FeatureToggle.Client.UnitTests.dll Grumpy.FeatureToggle.IntegrationTests\\bin\\Release\\Grumpy.FeatureToggle.IntegrationTests.dll -noshadow\" -output:\"coverage.xml\" -filter:\"+[Grumpy.FeatureToggle.*]* -[Grumpy.FeatureToggle.*.UnitTests*|Grumpy.FeatureToggle.*.IntegrationTests*]*\""
+  - cmd: "\"%USERPROFILE%\\.nuget\\packages\\OpenCover\\4.6.519\\tools\\OpenCover.Console.exe\" -register:user -target:\"%xunit20%\\xunit.console.x86.exe\" -targetargs:\"Grumpy.FeatureToggle.Core.UnitTests\\bin\\Release\\Grumpy.FeatureToggle.Core.UnitTests.dll Grumpy.FeatureToggle.Client.UnitTests\\bin\\Release\\Grumpy.FeatureToggle.Client.UnitTests.dll Grumpy.FeatureToggle.IntegrationTests\\bin\\Release\\Grumpy.FeatureToggle.IntegrationTests.dll -noshadow\" -output:\"coverage.xml\" -filter:\"+[Grumpy.FeatureToggle.*]* -[Grumpy.FeatureToggle.*.UnitTests*|Grumpy.FeatureToggle.IntegrationTests*]*\""
 after_test:
   - ps: |
       $env:PATH = 'C:\msys64\usr\bin;' + $env:PATH
