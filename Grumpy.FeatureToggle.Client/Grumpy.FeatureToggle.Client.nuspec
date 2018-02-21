@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <id>Grumpy.FeatureToggle.Client</id>
+        <version>0</version>
+        <title>Grumpy.FeatureToggle.Client</title>
+        <description>Client NuGet Package for Grumpy.FeatureToggle</description>
+        <summary>Client NuGet Package for Grumpy.FeatureToggle</summary>
+        <tags>feature-toggle client</tags>
+        <authors>Anders Busted-Janum</authors>
+        <owners>GrumpyBusted</owners>
+        <projectUrl>https://github.com/GrumpyBusted/Grumpy.FeatureToggle</projectUrl>
+        <licenseUrl>https://github.com/GrumpyBusted/Grumpy.FeatureToggle/blob/master/LICENSE</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <language>en-US</language>
+        <copyright>Copyright © Busted-Janum 2018</copyright>
+        <dependencies>
+            <dependency id="Grumpy.FeatureToggle.Api" version="2.0.0" />
+            <dependency id="Grumpy.RipplesMQ.Client" version="2.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Grumpy.FeatureToggle.Client.dll" target="lib\net451" />
+        <file src="Grumpy.FeatureToggle.Client.pdb" target="lib\net451" />
+    </files>
+</package>

@@ -1,0 +1,10 @@
+﻿
+
+
+
+
+
+
+Checking for MS SQL Project and updating PostBuildEvent
+Project file found C:\Dev\Source\Repos\Grumpy.FeatureToggle\Grumpy.FeatureToggle.Database\Grumpy.FeatureToggle.Database.sqlproj
+Project not updated!

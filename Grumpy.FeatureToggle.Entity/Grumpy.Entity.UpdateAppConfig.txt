@@ -1,0 +1,6 @@
+﻿
+
+
+Checking for database connection in App.config and updating
+Database link file found C:\Dev\Source\Repos\Grumpy.FeatureToggle\Grumpy.FeatureToggle.Database\Grumpy.FeatureToggle.Database_Model.entity_database
+
