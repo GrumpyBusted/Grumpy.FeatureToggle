@@ -15,11 +15,12 @@
         <language>en-US</language>
         <copyright>Copyright © Busted-Janum 2018</copyright>
         <dependencies>
-            <dependency id="Grumpy.FeatureToggle.Api" version="2.0.0" />
             <dependency id="Grumpy.RipplesMQ.Client" version="2.0.0" />
         </dependencies>
     </metadata>
     <files>
+        <file src="Grumpy.FeatureToggle.Api.dll" target="lib\net451" />
+        <file src="Grumpy.FeatureToggle.Api.pdb" target="lib\net451" />
         <file src="Grumpy.FeatureToggle.Client.dll" target="lib\net451" />
         <file src="Grumpy.FeatureToggle.Client.pdb" target="lib\net451" />
     </files>

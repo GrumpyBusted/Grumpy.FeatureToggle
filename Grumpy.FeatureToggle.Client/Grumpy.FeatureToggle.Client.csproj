@@ -36,6 +36,7 @@
   <ItemGroup>
     <None Include="Grumpy.FeatureToggle.Client.nuspec">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <Compile Include="FeatureToggleClient.cs" />
     <Compile Include="Interfaces\IFeatureToggleClient.cs" />
