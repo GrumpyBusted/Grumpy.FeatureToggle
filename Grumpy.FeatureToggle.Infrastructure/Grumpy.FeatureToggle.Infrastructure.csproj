@@ -49,5 +49,10 @@
       <Name>Grumpy.FeatureToggle.Entity</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Grumpy.Entity">
+      <Version>2.0.0</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
