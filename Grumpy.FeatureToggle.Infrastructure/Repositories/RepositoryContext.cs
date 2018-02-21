@@ -12,8 +12,7 @@ namespace Grumpy.FeatureToggle.Infrastructure.Repositories
 
         public RepositoryContext(ILogger logger, IEntityConnectionConfig entityConnectionConfig)
         {
-            _entities = new Class1();
-//            _entities = new Entities(logger, entityConnectionConfig);
+            _entities = new Entities(logger, entityConnectionConfig);
         }
 
         public void Save()
