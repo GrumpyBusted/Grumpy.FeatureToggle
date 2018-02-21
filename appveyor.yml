@@ -29,7 +29,7 @@ after_test:
       Invoke-WebRequest -Uri 'https://codecov.io/bash' -OutFile codecov.sh
       bash codecov.sh -f "coverage.xml" -t 55926c82-7e1c-44eb-bfeb-0a50b1ad665e
 after_build:
-  - ps: nuget pack Grumpy.FeatureToggle.Api\bin\Release\Grumpy.FeatureToggle.Client.nuspec -Version $env:APPVEYOR_BUILD_VERSION
+  - ps: nuget pack Grumpy.FeatureToggle.Client\bin\Release\Grumpy.FeatureToggle.Client.nuspec -Version $env:APPVEYOR_BUILD_VERSION
 artifacts:
   - path: '**\*.nupkg'
     name: NuGet
